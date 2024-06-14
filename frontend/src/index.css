@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'TBC';
+  src: url('./assets/fonts/TBCContractica-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'TBC';
+  src: url('./assets/fonts/TBCContractica-Book.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'TBC';
+  src: url('./assets/fonts/TBCContractica-Regular.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'TBC';
+  src: url('./assets/fonts/TBCContractica-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'TBC';
+  src: url('./assets/fonts/TBCContractica-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+/* TBC CAPS */
+@font-face {
+  font-family: 'TBC-CAPS';
+  src: url('./assets/fonts/TBCContracticaCAPS-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'TBC-CAPS';
+  src: url('./assets/fonts/TBCContracticaCAPS-Book.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'TBC-CAPS';
+  src: url('./assets/fonts/TBCContracticaCAPS-Regular.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'TBC-CAPS';
+  src: url('./assets/fonts/TBCContracticaCAPS-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'TBC-CAPS';
+  src: url('./assets/fonts/TBCContracticaCAPS-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+:root {
+  --clr-primary: #8471D9;
+  --clr-bg: #F9FAFB;
+  --clr-gray-400: #F9FAFB;
+  --clr-gray-500: #EEEEEE;
+  --clr-gray-600: #706A6A;
+  --clr-gray-700: #7B7D7E;
+  --clr-gray-800: #434A53;
+  --clr-black-800: #282525;
+  --clt-black-full: #000000;
+  --clr-white: #ffffff;
+  --clr-yellow: #FDB927;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "TBC";
+  font-weight: 400;
+  font-size: 1.4rem;
+  background-color: var(--clr-bg);
+  color: var(--clr-gray-800);
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "TBC-CAPS";
+  color: var(--clr-gray-800);
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.titleSecondary {
+  text-align: center;
+  margin-bottom: 3.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 139.2rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+@media only screen and (min-width: 1281px) {
+  .container {
+    padding: 0 0;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.btnPrimary,
+.btnWhite {
+  font-family: "TBC-CAPS";
+  line-height: 2.4rem;
+}
+
+.btnPrimary {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.btnWhite {
+  background-color: var(--clr-white);
+  color: var(--clr-gray-800);
+}
+
+.btnPurpleText {
+  background-color: var(--clr-white);
+  color: var(--clr-primary);
+}
+
+.btnSeeAll {
+  display: block;
+  border-radius: 1.2rem;
+  font-size: 1.6rem;
+  width: 21rem;
+  text-align: center;
+  padding: 1.8rem 0 1.4rem 0;
+  margin: 0 auto;
+}
+
+.btnCta {
+  width: 15.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 0 0.8rem 0;
+  border-radius: 0.8rem;
+}
+
+.slick-dots {
+  position: static;
+  margin-top: 2.4rem;
+}
+
+.slick-dot {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  border: 0.2rem solid var(--clr-yellow);
+  background-color: transparent;
+}
+
+.slick-active .slick-dot {
+  background-color: var(--clr-yellow);
+}

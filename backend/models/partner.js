@@ -1,0 +1,3 @@
+/*
+imgs: [relative url]
+*/

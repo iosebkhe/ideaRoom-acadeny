@@ -1,0 +1,71 @@
+.testimonialOuter {
+  padding-top: 1.2rem;
+}
+
+.testimonial {
+  position: relative;
+  max-width: 45.2rem;
+  background-color: white;
+  border-radius: 1.4rem;
+  padding: 3.6rem 3.6rem 3rem 3.6rem;
+}
+
+.quotesIcon {
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  top: -1.2rem;
+  left: 4.1rem;
+}
+
+.description {
+  color: var(--clr-gray-700);
+}
+
+.userBox {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 2.4rem 0;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.userFullName {
+  font-size: 1.4rem;
+}
+
+.userReview {
+  font-size: 1.2rem;
+  color: var(--clr-gray-600);
+}
+
+.hr {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  border: 0;
+  background-color: var(--clr-gray-500);
+  height: 0.1rem;
+  margin-bottom: 1.6rem;
+}
+
+.link {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.arrowIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: var(--clr-primary);
+  border-radius: 50%;
+}

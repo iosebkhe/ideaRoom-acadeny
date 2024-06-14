@@ -1,0 +1,75 @@
+/* courses styles */
+.sectionCourses {
+  margin-top: 7.2rem;
+}
+
+.coursesWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.6rem;
+  margin-bottom: 3.6rem;
+}
+
+/* why study in idearoom */
+.sectionWhyUs {
+  margin-top: 7.2rem;
+  background-color: white;
+}
+
+.whyUsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 3.6rem;
+  padding: 7.2rem 0;
+}
+
+.whyUsTitle {
+  font-weight: 400;
+  text-align: center;
+  padding: 0 8rem;
+  margin-bottom: 4.8rem;
+}
+
+.whyUsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.6rem;
+  row-gap: 4.8rem;
+}
+
+.whyUsItem {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.whyUsItemTitle {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: black;
+  margin-top: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.whyUsItemText {
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+/* section blogs */
+.sectionBlogs {
+  margin-top: 7.2rem;
+}
+
+.blogsWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.8rem;
+  margin-bottom: 3.6rem;
+}
+
+/* section testimonials */
+.sectionTestimonials {
+  margin-top: 8.4rem;
+}

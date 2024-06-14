@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: var(--clr-white);
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6.6rem 4.8rem;
+}
+
+.imgBox {
+  margin-left: auto;
+}

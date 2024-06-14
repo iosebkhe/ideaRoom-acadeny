@@ -1,0 +1,57 @@
+.footer {
+  margin-top: 9.6rem;
+  margin-bottom: 3.6rem;
+}
+
+.content {
+  background-color: var(--clr-white);
+  color: var(--clr-black-800);
+  padding: 11.9rem 0 4.8rem 0;
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.company {
+  font-family: "TBC-CAPS";
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.socialList {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.socialItem {
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: var(--clr-gray-400);
+  border-radius: 50%;
+}
+
+.socialLink {
+  width: 4.8rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacyPolicy {
+  font-family: "TBC-CAPS";
+  color: var(--clr-black-800);
+}
